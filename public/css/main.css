@@ -1,0 +1,37 @@
+html,
+body {
+  background-color: #f4f7fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  h1,
+  h2 {
+    color: #0f172a;
+  }
+
+  nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: inline;
+      margin-right: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1d4ed8;
+      font-weight: bold;
+
+      &:hover {
+        color: #7c3aed;
+      }
+    }
+  }
+}
